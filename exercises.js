@@ -127,6 +127,20 @@ console.log(stockCar);
    the value at `name`, and just the value at `age`.
  */
 
+ var plainPerson = {};
+
+ function buildPerson(person, nameString, age){
+  person.name = nameString;
+  person.age = age;
+  var completePerson = person;
+  return completePerson;
+ }
+
+console.log(buildPerson(plainPerson, "Jocelyn", 26));
+console.log(plainPerson);
+console.log(plainPerson.age);
+console.log(plainPerson.name);
+
 
 /*
 7. Display values of objects that are inside an array
