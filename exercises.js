@@ -39,6 +39,16 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
  "My dog `name` is `age` year old and likes to `speak`."
 */ 
 
+var dog = {
+  name: "Waffle",
+  age: 11,
+  vegetarian: false,
+  color: ["brown", "white"],
+  speak: "bark"
+};
+
+console.log("My dog " + dog.name + " is " + dog.age + " years old and likes to " + dog.speak + ".");
+
 
 
 //An empty object
